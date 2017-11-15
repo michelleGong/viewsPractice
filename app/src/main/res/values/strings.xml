@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">ViewPractice_1</string>
+    <string name="drawcolor">drawColor填充色</string>
+    <string name="drawCircle">drawCircle</string>
+    <string name="drawRect">drawRect</string>
+    <string name="drawpoint">drawPoint</string>
+    <string name="drawOval">drawOval</string>
+    <string name="drawLine">drawLine</string>
+    <string name="drawRoundRect">drawRoundRect</string>
+    <string name="drawArc">drawArc</string>
+    <string name="drawPath">drawPath</string>
+    <string name="drawPieChart">饼图</string>
+    <string name="drawColumnDiagram">直方图</string>
+    <string name="drawOther">其他</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tabHeight">48dp</dimen>
+    <dimen name="tabPaddingLeft">12dp</dimen>
+    <dimen name="tabPaddingRight">12dp</dimen>
+</resources>
