@@ -13,21 +13,21 @@ import android.view.View;
  * @des
  */
 
-public class Practice7RoundRect extends View {
+public class Practice7RoundRectView extends View {
 
-    public Practice7RoundRect(Context context) {
+    public Practice7RoundRectView(Context context) {
         super(context);
     }
 
-    public Practice7RoundRect(Context context, @Nullable AttributeSet attrs) {
+    public Practice7RoundRectView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public Practice7RoundRect(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public Practice7RoundRectView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
-    public Practice7RoundRect(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public Practice7RoundRectView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 

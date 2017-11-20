@@ -12,6 +12,7 @@
     <string name="drawPath">drawPath</string>
     <string name="drawPieChart">饼图</string>
     <string name="drawColumnDiagram">直方图</string>
+    <string name="drawBitmap">drawBitmap</string>
     <string name="drawOther">其他</string>
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -30,8 +30,10 @@ public class MainActivity extends AppCompatActivity {
         pageModeList.add(new PageMode(R.string.drawLine,R.drawable.sample_line,R.layout.practice_line));
         pageModeList.add(new PageMode(R.string.drawRoundRect,R.drawable.sample_round_rect,R.layout.practice_round_rect));
         pageModeList.add(new PageMode(R.string.drawArc,R.drawable.sample_arc,R.layout.practice_arc));
+        pageModeList.add(new PageMode(R.string.drawPath,R.drawable.sample_path,R.layout.practice_path));
         pageModeList.add(new PageMode(R.string.drawPieChart,R.drawable.sample_pie_chart,R.layout.practice_pie));
         pageModeList.add(new PageMode(R.string.drawColumnDiagram,R.drawable.sample_histogram,R.layout.practice_column_diagram));
+        pageModeList.add(new PageMode(R.string.drawBitmap,null,R.layout.practice_bitmap));
         pageModeList.add(new PageMode(R.string.drawOther,null,R.layout.practice_other));
 
     }

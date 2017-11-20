@@ -14,7 +14,7 @@ import android.view.View;
  * @des
  */
 
-public class Practive9PathView extends View {
+public class Practice9PathView extends View {
 
     Paint paint = new Paint();
     Path path = new Path();
@@ -27,19 +27,19 @@ public class Practive9PathView extends View {
 
     }
 
-    public Practive9PathView(Context context) {
+    public Practice9PathView(Context context) {
         super(context);
     }
 
-    public Practive9PathView(Context context, @Nullable AttributeSet attrs) {
+    public Practice9PathView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public Practive9PathView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public Practice9PathView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
-    public Practive9PathView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public Practice9PathView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 

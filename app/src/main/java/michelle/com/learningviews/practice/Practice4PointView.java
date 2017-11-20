@@ -13,18 +13,18 @@ import android.view.View;
  * @des
  */
 
-public class Practice4Point extends View {
+public class Practice4PointView extends View {
 
 
-    public Practice4Point(Context context) {
+    public Practice4PointView(Context context) {
         super(context);
     }
 
-    public Practice4Point(Context context, @Nullable AttributeSet attrs) {
+    public Practice4PointView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public Practice4Point(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public Practice4PointView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
@@ -54,10 +54,12 @@ public class Practice4Point extends View {
         canvas.drawPoint(100,300,paint);
 
 
+
+/*
         paint.setStrokeWidth(10);
         float[] points = {600,50,650,50,100,650,700,100};
 
-        canvas.drawPoints(points,paint);
+        canvas.drawPoints(points,paint);*/
 
 
     }

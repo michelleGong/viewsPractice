@@ -14,17 +14,17 @@ import android.view.View;
  * @des
  */
 
-public class Practice3Rect extends View {
+public class Practice3RectView extends View {
 
-    public Practice3Rect(Context context) {
+    public Practice3RectView(Context context) {
         super(context);
     }
 
-    public Practice3Rect(Context context, @Nullable AttributeSet attrs) {
+    public Practice3RectView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public Practice3Rect(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public Practice3RectView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 

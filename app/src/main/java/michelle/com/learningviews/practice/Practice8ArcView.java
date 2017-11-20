@@ -13,21 +13,21 @@ import android.view.View;
  * @des
  */
 
-public class Practice8Arc extends View {
+public class Practice8ArcView extends View {
 
-    public Practice8Arc(Context context) {
+    public Practice8ArcView(Context context) {
         super(context);
     }
 
-    public Practice8Arc(Context context, @Nullable AttributeSet attrs) {
+    public Practice8ArcView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public Practice8Arc(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public Practice8ArcView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
-    public Practice8Arc(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public Practice8ArcView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 

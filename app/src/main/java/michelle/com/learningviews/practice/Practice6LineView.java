@@ -14,21 +14,21 @@ import android.view.View;
  * @des
  */
 
-public class Practice6Line extends View {
+public class Practice6LineView extends View {
 
-    public Practice6Line(Context context) {
+    public Practice6LineView(Context context) {
         super(context);
     }
 
-    public Practice6Line(Context context, @Nullable AttributeSet attrs) {
+    public Practice6LineView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public Practice6Line(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public Practice6LineView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
-    public Practice6Line(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public Practice6LineView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 

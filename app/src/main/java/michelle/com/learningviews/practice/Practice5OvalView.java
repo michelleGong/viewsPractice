@@ -13,17 +13,17 @@ import android.view.View;
  * @des
  */
 
-public class Practice5Oval extends View {
+public class Practice5OvalView extends View {
 
-    public Practice5Oval(Context context) {
+    public Practice5OvalView(Context context) {
         super(context);
     }
 
-    public Practice5Oval(Context context, @Nullable AttributeSet attrs) {
+    public Practice5OvalView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public Practice5Oval(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public Practice5OvalView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
@@ -34,5 +34,8 @@ public class Practice5Oval extends View {
         Paint paint = new Paint();
         paint.setAntiAlias(true);
         canvas.drawOval(100,100,500,200,paint);
+
+        canvas.translate(100,0);
+        canvas.drawOval(100,400,500,500,paint);
     }
 }
