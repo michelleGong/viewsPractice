@@ -2,6 +2,7 @@ package michelle.com.viewpractice_2.practice;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.support.annotation.Nullable;
@@ -39,7 +40,37 @@ public class Practice16TextPathView extends View {
         super.onDraw(canvas);
 
         canvas.drawText(text, 50, 200, paint);
+      /*  paint.getTextPath(text,0,text.length(),50,400,textPath);
 
-        canvas.drawPath(textPath, pathPaint);
+        canvas.drawPath(textPath, pathPaint);*/
+
+
+
+        paint.getTextPath(text,0,text.length(),50,500,textPath);
+
+
+        canvas.drawPath(textPath,pathPaint);
+
+        Path underline = new Path();
+
+        textPath.op(underline, Path.Op.INTERSECT);
+
+        pathPaint.setColor(Color.RED);
+//        canvas.drawPath(underline,pathPaint);
+
+
+        Paint mStroke = new Paint();
+        mStroke.setStyle(Paint.Style.FILL_AND_STROKE);
+        mStroke.setStrokeWidth(10);
+
+        Path strokedOutline = new Path();
+        mStroke.getFillPath(textPath, strokedOutline);
+
+        underline.op(strokedOutline, Path.Op.DIFFERENCE);
+
+        canvas.drawPath(underline,pathPaint);
+
+
+
     }
 }
