@@ -20,7 +20,7 @@ import com.hencoder.hencoderpracticedraw4.R;
 public class Practice13CameraRotateHittingFaceView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     Bitmap bitmap;
-    Point point = new Point(200, 50);
+    Point point = new Point(200, 20);
     Camera camera = new Camera();
     Matrix matrix = new Matrix();
     int degree;
@@ -79,6 +79,7 @@ public class Practice13CameraRotateHittingFaceView extends View {
         camera.save();
         matrix.reset();
         camera.rotateX(degree);
+        camera.setLocation(0,0,-100);
         camera.getMatrix(matrix);
         camera.restore();
         matrix.preTranslate(-centerX, -centerY);

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT" />
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app2" />
+            <option value="$PROJECT_DIR$/layout_practice_1" />
+            <option value="$PROJECT_DIR$/mainapp" />
+            <option value="$PROJECT_DIR$/p1app" />
+            <option value="$PROJECT_DIR$/testanimation" />
+            <option value="$PROJECT_DIR$/viewpractice_2" />
+            <option value="$PROJECT_DIR$/viewpractice_3" />
+            <option value="$PROJECT_DIR$/viewpractice_4" />
+            <option value="$PROJECT_DIR$/viewpractice_5" />
+            <option value="$PROJECT_DIR$/viewpractice_6" />
+            <option value="$PROJECT_DIR$/viewpractice_a10" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

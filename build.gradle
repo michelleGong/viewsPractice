@@ -7,7 +7,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.android.tools.build:gradle:3.4.0'
         
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -19,6 +19,10 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+//            url 'http://192.168.18.224:9030/repository/yarward-public/'
+            url 'http://222.134.71.30:9030/repository/yarward-public/'
+        }
     }
 }
 
